@@ -1,0 +1,180 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Domain.Impl", "Clintech.ClinApps.Domain.Impl\Clintech.ClinApps.Domain.Impl.csproj", "{17298EA0-AF73-4F30-B6F1-2066100D7D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Application.Impl", "Clintech.ClinApps.Application.Impl\Clintech.ClinApps.Application.Impl.csproj", "{EDF5D964-4C0F-4F19-B674-58A38A5E5401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Repositories.EntityFramework", "Clintech.ClinApps.Repositories.EntityFramework\Clintech.ClinApps.Repositories.EntityFramework.csproj", "{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.WebApi", "Clintech.ClinApps.WebApi\Clintech.ClinApps.WebApi.csproj", "{5EB52D3D-09FD-463A-B02A-8D9856BD3724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.ClinSite", "Clintech.ClinApps.ClinSite\Clintech.ClinApps.ClinSite.csproj", "{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7E85C7E5-70BD-4C9D-B052-D95955F46609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Tests", "Clintech.ClinApps.Tests\Clintech.ClinApps.Tests.csproj", "{C602C47E-F379-40A3-A146-4F19105B3491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Application.Contracts", "Clintech.ClinApps.Application.Contracts\Clintech.ClinApps.Application.Contracts.csproj", "{59F8D593-54DE-4359-B4DE-5A8480258B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Domain.Contracts", "Clintech.ClinApps.Domain.Contracts\Clintech.ClinApps.Domain.Contracts.csproj", "{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E52724EC-DC57-464E-B89A-B52AEEA854CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{078F865B-4038-44EA-96BC-4375ECF9913A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D75A0D19-F4B2-4299-9E0C-9FF48BFCD4A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distribution", "Distribution", "{C11DC45F-84D4-4113-8CBA-5A3C6ABD80C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Application.Entities", "Clintech.ClinApps.Application.Entities\Clintech.ClinApps.Application.Entities.csproj", "{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5408420F-CEBE-4755-9CC4-2FD7791462A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Domain.Entities", "Clintech.ClinApps.Domain.Entities\Clintech.ClinApps.Domain.Entities.csproj", "{EFE8E028-AEAD-4702-9F14-5DABE704DD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clintech.ClinApps.Repositories.Migrations", "Clintech.ClinApps.Repositories.Migrations\Clintech.ClinApps.Repositories.Migrations.csproj", "{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug (Compile Views)|Any CPU = Debug (Compile Views)|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C602C47E-F379-40A3-A146-4F19105B3491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug (Compile Views)|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Debug (Compile Views)|Any CPU.Build.0 = Debug (Compile Views)|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Debug (Compile Views)|Any CPU.ActiveCfg = Debug|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Debug (Compile Views)|Any CPU.Build.0 = Debug|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74} = {078F865B-4038-44EA-96BC-4375ECF9913A}
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401} = {E52724EC-DC57-464E-B89A-B52AEEA854CD}
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300} = {5408420F-CEBE-4755-9CC4-2FD7791462A6}
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724} = {C11DC45F-84D4-4113-8CBA-5A3C6ABD80C8}
+		{404A6D3B-AA85-4E4C-AEEE-1E5026D5F135} = {D75A0D19-F4B2-4299-9E0C-9FF48BFCD4A1}
+		{C602C47E-F379-40A3-A146-4F19105B3491} = {7E85C7E5-70BD-4C9D-B052-D95955F46609}
+		{59F8D593-54DE-4359-B4DE-5A8480258B0E} = {E52724EC-DC57-464E-B89A-B52AEEA854CD}
+		{E1DFDF25-A866-45DB-AC5E-A8AE2F64B9C5} = {078F865B-4038-44EA-96BC-4375ECF9913A}
+		{79403971-65F9-49F9-AFD2-4D6EFC51D1C8} = {E52724EC-DC57-464E-B89A-B52AEEA854CD}
+		{EFE8E028-AEAD-4702-9F14-5DABE704DD77} = {078F865B-4038-44EA-96BC-4375ECF9913A}
+		{624B3AEB-2F0B-4E39-808B-64F62BC2ED79} = {5408420F-CEBE-4755-9CC4-2FD7791462A6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ctech-tfs:8080/tfs/clintech
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Clintech.ClinApps.Domain.Impl\\Clintech.ClinApps.Domain.Impl.csproj
+		SccProjectTopLevelParentUniqueName1 = Clintech.ClinApps.sln
+		SccProjectName1 = Clintech.ClinApps.Domain.Impl
+		SccLocalPath1 = Clintech.ClinApps.Domain.Impl
+		SccProjectUniqueName2 = Clintech.ClinApps.Application.Impl\\Clintech.ClinApps.Application.Impl.csproj
+		SccProjectTopLevelParentUniqueName2 = Clintech.ClinApps.sln
+		SccProjectName2 = Clintech.ClinApps.Application.Impl
+		SccLocalPath2 = Clintech.ClinApps.Application.Impl
+		SccProjectUniqueName3 = Clintech.ClinApps.Repositories.EntityFramework\\Clintech.ClinApps.Repositories.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName3 = Clintech.ClinApps.sln
+		SccProjectName3 = Clintech.ClinApps.Repositories.EntityFramework
+		SccLocalPath3 = Clintech.ClinApps.Repositories.EntityFramework
+		SccProjectUniqueName4 = Clintech.ClinApps.WebApi\\Clintech.ClinApps.WebApi.csproj
+		SccProjectTopLevelParentUniqueName4 = Clintech.ClinApps.sln
+		SccProjectName4 = Clintech.ClinApps.WebApi
+		SccLocalPath4 = Clintech.ClinApps.WebApi
+		SccProjectUniqueName5 = Clintech.ClinApps.ClinSite\\Clintech.ClinApps.ClinSite.csproj
+		SccProjectTopLevelParentUniqueName5 = Clintech.ClinApps.sln
+		SccProjectName5 = Clintech.ClinApps.ClinSite
+		SccLocalPath5 = Clintech.ClinApps.ClinSite
+		SccProjectUniqueName6 = Clintech.ClinApps.Tests\\Clintech.ClinApps.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = Clintech.ClinApps.sln
+		SccProjectName6 = Clintech.ClinApps.Tests
+		SccLocalPath6 = Clintech.ClinApps.Tests
+		SccProjectUniqueName7 = Clintech.ClinApps.Application.Contracts\\Clintech.ClinApps.Application.Contracts.csproj
+		SccProjectTopLevelParentUniqueName7 = Clintech.ClinApps.sln
+		SccProjectName7 = Clintech.ClinApps.Application.Contracts
+		SccLocalPath7 = Clintech.ClinApps.Application.Contracts
+		SccProjectUniqueName8 = Clintech.ClinApps.Domain.Contracts\\Clintech.ClinApps.Domain.Contracts.csproj
+		SccProjectTopLevelParentUniqueName8 = Clintech.ClinApps.sln
+		SccProjectName8 = Clintech.ClinApps.Domain.Contracts
+		SccLocalPath8 = Clintech.ClinApps.Domain.Contracts
+		SccProjectUniqueName9 = Clintech.ClinApps.Application.Entities\\Clintech.ClinApps.Application.Entities.csproj
+		SccProjectTopLevelParentUniqueName9 = Clintech.ClinApps.sln
+		SccProjectName9 = Clintech.ClinApps.Application.Entities
+		SccLocalPath9 = Clintech.ClinApps.Application.Entities
+		SccProjectUniqueName10 = Clintech.ClinApps.Domain.Entities\\Clintech.ClinApps.Domain.Entities.csproj
+		SccProjectTopLevelParentUniqueName10 = Clintech.ClinApps.sln
+		SccProjectName10 = Clintech.ClinApps.Domain.Entities
+		SccLocalPath10 = Clintech.ClinApps.Domain.Entities
+		SccProjectUniqueName11 = Clintech.ClinApps.Repositories.Migrations\\Clintech.ClinApps.Repositories.Migrations.csproj
+		SccProjectTopLevelParentUniqueName11 = Clintech.ClinApps.sln
+		SccProjectName11 = Clintech.ClinApps.Repositories.Migrations
+		SccLocalPath11 = Clintech.ClinApps.Repositories.Migrations
+	EndGlobalSection
+EndGlobal
